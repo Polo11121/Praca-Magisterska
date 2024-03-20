@@ -1,0 +1,81 @@
+
+FFT_size=2048, hop_size=10, mel_filter_num=40, dct_filter_num=50
+
+Epoch 300/300
+219/219 [==============================] - 1s 2ms/step - loss: 0.6130 - accuracy: 0.7947 - val_loss: 0.4791 - val_accuracy: 0.8392
+
+1. FFT_size=1024, hop_size=10, mel_filter_num=40, dct_filter_num=12
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 1.0110 - accuracy: 0.6584 - val_loss: 0.7676 - val_accuracy: 0.7630
+
+2. FFT_size=2048, hop_size=15, mel_filter_num=30, dct_filter_num=20
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.8073 - accuracy: 0.7333 - val_loss: 0.5977 - val_accuracy: 0.8042
+
+3. FFT_size=512, hop_size=10, mel_filter_num=60, dct_filter_num=15
+
+Epoch 300/300
+219/219 [==============================] - 1s 3ms/step - loss: 1.0666 - accuracy: 0.6375 - val_loss: 0.7960 - val_accuracy: 0.7424
+
+4. FFT_size = 2048, hop_size = 20 ms, mel_filter_num = 50, dct_filter_num = 13
+
+Epoch 300/300
+219/219 [==============================] - 1s 3ms/step - loss: 0.9633 - accuracy: 0.6712 - val_loss: 0.7172 - val_accuracy: 0.7687
+
+5. FFT_size = 256, hop_size = 5, mel_filter_num = 40, dct_filter_num = 20
+
+Epoch 300/300
+219/219 [==============================] - 1s 3ms/step - loss: 1.1569 - accuracy: 0.6127 - val_loss: 0.9453 - val_accuracy: 0.6932
+
+6. FFT_size = 1024, hop_size = 25, mel_filter_num = 20, dct_filter_num = 20
+
+Epoch 300/300
+219/219 [==============================] - 1s 2ms/step - loss: 0.8394 - accuracy: 0.7187 - val_loss: 0.6223 - val_accuracy: 0.8031
+
+7. FFT_size = 2048, hop_size = 10, mel_filter_num = 45, dct_filter_num = 55
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.6393 - accuracy: 0.7901 - val_loss: 0.5097 - val_accuracy: 0.8380
+
+8. FFT_size = 2048, hop_size = 10, mel_filter_num = 128, dct_filter_num = 60
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.7140 - accuracy: 0.7707 - val_loss: 0.5570 - val_accuracy: 0.8306
+
+
+9. FFT_size = 2048, hop_size = 15, mel_filter_num = 128, dct_filter_num = 15
+1
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 1.0571 - accuracy: 0.6432 - val_loss: 0.8423 - val_accuracy: 0.7407
+
+10. FFT_size = 2048, hop_size = 8, mel_filter_num = 256, dct_filter_num = 60
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.8319 - accuracy: 0.7250 - val_loss: 0.6475 - val_accuracy: 0.8014
+
+11. FFT_size=2048, hop_size=12, mel_filter_num=42, dct_filter_num=52,
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.5997 - accuracy: 0.8115 - val_loss: 0.4871 - val_accuracy: 0.8437 dobry wnik 
+
+12. FFT_size=2048, hop_size=12, mel_filter_num=50, dct_filter_num=60
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.6025 - accuracy: 0.8044 - val_loss: 0.5038 - val_accuracy: 0.8466
+
+13. FFT_size=2048, hop_size=12, mel_filter_num=60, dct_filter_num=70 
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.5674 - accuracy: 0.8256 - val_loss: 0.5003 - val_accuracy: 0.8437
+
+14. FFT_size=2048, hop_size=12, mel_filter_num=55, dct_filter_num=65
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.5828 - accuracy: 0.8053 - val_loss: 0.4965 - val_accuracy: 0.8506
+
+15. FFT_size=2048, hop_size=12, mel_filter_num=55, dct_filter_num=70
+
+Epoch 300/300
+219/219 [==============================] - 0s 2ms/step - loss: 0.6072 - accuracy: 0.8060 - val_loss: 0.4929 - val_accuracy: 0.8477
