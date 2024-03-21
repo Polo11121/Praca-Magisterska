@@ -46,7 +46,7 @@ def predict_sound():
 
     start_time = time.time()
 
-    model = train_and_save_model()
+    model = train_and_save_model("models/0.92501431703_new_model_mfcc.h5")
 
     mfccs_features = mfcc(selected_filename)
     mfccs_scaled_features = np.mean(mfccs_features.T, axis=0)

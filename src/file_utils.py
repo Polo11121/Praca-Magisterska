@@ -8,7 +8,7 @@ from src.mfcc import mfcc
 def get_mfcc_filename(audio_path, FFT_size, hop_size, mel_filter_num, dct_filter_num):
     file_name = os.path.splitext(os.path.basename(audio_path))[0]
 
-    return f"data/mfccs/{file_name}_FFT{FFT_size}_HOP{hop_size}_MEL{mel_filter_num}_DCT{dct_filter_num}.npy"
+    return f"dataSources/mfccs/{file_name}_FFT{FFT_size}_HOP{hop_size}_MEL{mel_filter_num}_DCT{dct_filter_num}.npy"
 
 
 def save_mfcc(audio_path, mfccs_features, FFT_size, hop_size, mel_filter_num, dct_filter_num):
@@ -18,7 +18,6 @@ def save_mfcc(audio_path, mfccs_features, FFT_size, hop_size, mel_filter_num, dc
 
 def load_mfcc(audio_path, FFT_size, hop_size, mel_filter_num, dct_filter_num):
     file_path = get_mfcc_filename(audio_path, FFT_size, hop_size, mel_filter_num, dct_filter_num)
-
     if os.path.exists(file_path):
         return np.load(file_path)
     else:
